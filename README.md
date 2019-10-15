@@ -6,7 +6,7 @@
 $ django-admin startproject 프로젝트명 . (명령어 끝에 . (점,마침표)를 꼭꼭 입력!!)
 ` $ django-admin startproject mysite . `
 
-![jango](img/img1.PNG)
+![jango](img/img1.png)
 
 ** manage.py : 스크립트로 사이트 관리를 도와주는 역할  
 ** settings.py : 웹사이트 설정이 있는 파일  
