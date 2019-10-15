@@ -5,6 +5,7 @@
 ## Django 프로젝트 생성 및 서버 실행
 $ django-admin startproject 프로젝트명 . (명령어 끝에 . (점,마침표)를 꼭꼭 입력!!)
 ` $ django-admin startproject mysite . `
+
 ![jango](img/img1.PNG)
 
 ** manage.py : 스크립트로 사이트 관리를 도와주는 역할  
