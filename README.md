@@ -158,5 +158,5 @@ TEMPLATES = [
         ],  
 ```
 * http://127.0.0.1:8000/post-list/ 화면 확인  
-![jango](img/img11.png) 
+![jango](img/img12.png) 
 
