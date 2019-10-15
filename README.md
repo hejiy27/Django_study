@@ -16,10 +16,10 @@ $ django-admin startproject 프로젝트명 . (명령어 끝에 . (점,마침표
 ` $ python manage.py migrate `
 * 웹 서버를 시작하는 명령어
 ` $ python manage.py runsever `  
-[jango](./img/img2.PNG)
+![jango](img/img2.png)
 
 * http://127.0.0.1:8000/ 를 웹페이지 창에 입력 후 서버가 잘 실행 됐을시의 첫 화면  
-[jango](./img/img3.PNG)
+![jango](img/img3.png)
 
 ## Django 모델
 ** 객체 지향 프로그래밍 : 모델을 만들어 그 모델이 어떤 역할을 가지고 어떻게 행동해야 하는지 정의하여 서로 알아서 상호작용할 수 있도록 하는 것  
@@ -28,11 +28,11 @@ $ django-admin startproject 프로젝트명 . (명령어 끝에 . (점,마침표
 * 어플리케이션 생성 명령어  
 ` $ python manage.py startapp blog `  
 ** blog 디렉터리와 파일이 생성됨.  
-[jango](./img/img4.PNG)
+![jango](img/img4.png)
 
 * 어플리케이션을 장고에 사용한다고 알려줌.  
 -> mysite/settings.py 파일에 blog 추가  
-[jango](./img/img5.PNG)
+![jango](img/img5.png)
 
 * 모든 모델 객체는 blog/models.py 파일에 선언하여 모델을 만듬.  
 ```
@@ -69,11 +69,11 @@ class Post(models.Model):
 * 테이블 생성  
 ** 장고에게 모델에 추가 된것을 알려줘야함.  
 ` $ python manage.py makemigrations blog `  
-[jango](./img/img6.PNG)  
+![jango](img/img6.png)  
 
 ** 실제 데이터베이스에 모델 추가를 반영  
 ` $ python manage.py migrate blog `  
-[jango](./img/img7.PNG)  
+![jango](img/img7.png)  
 
 ## Django 관리자 
 * 모델링한 글을 장고 관리자에 추가.  
@@ -85,14 +85,14 @@ from .models import Post
 admin.site.register(Post)
 ```
 * http://127.0.0.1:8000/admin/ 로 관리자 페이지 확인.  
-[jango](./img/img8.PNG) 
+![jango](img/img8.png) 
 
 * 슈퍼 사용자 생성  
 ` $ python manage.py createsuperuser `  
-[jango](./img/img9.PNG) 
+![jango](img/img9.png) 
 
 * 생성 후 관리자 페이지엥서 슈퍼 사용자로 로그인 후 확인  
-[jango](./img/img10.PNG) 
+![jango](img/img10.png) 
 
 ## templates 파일 안에 html 생성  
 ** templates : 서로 다른 정보를 일정한 형태로 표시하기 위해 재사용 가능한 파일
@@ -158,5 +158,5 @@ TEMPLATES = [
         ],  
 ```
 * http://127.0.0.1:8000/post-list/ 화면 확인  
-[jango](./img/img11.PNG) 
+![jango](img/img11.png) 
 
